@@ -114,6 +114,10 @@ body {
 	opacity: .5;
 }
 
+.rounded-square {
+	border-radius: 5%;
+}
+
 
 footer {
 	background: #78C2AD;
