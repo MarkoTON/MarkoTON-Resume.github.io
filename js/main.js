@@ -1,0 +1,56 @@
+window.sr = ScrollReveal();
+sr.reveal('.navbar', {
+  duration: 2000,
+  origin: 'top'
+});
+sr.reveal('.col-md-7', {
+  duration: 2000,
+  origin: 'left',
+  distance: '300px'
+});
+sr.reveal('.col-md-5', {
+  duration: 2000,
+  origin: 'right',
+  distance: '300px'
+});
+sr.reveal('.my-career', {
+  duration: 2000,
+  origin: 'bottom'
+});
+sr.reveal('#about', {
+  duration: 2000,
+  origin: 'bottom',
+  viewFactor: 0.4
+});
+sr.reveal('#experience .col-md-6', {
+  duration: 2000,
+  origin: 'bottom',
+  distance: '300px',
+  viewFactor: 0.2
+});
+sr.reveal('#skills', {
+  duration: 2000,
+  origin: 'right',
+  distance: '300px',
+  viewFactor: 0.2
+});
+sr.reveal('#education', {
+  duration: 2000,
+  origin: 'left',
+  distance: '300px',
+  viewFactor: 0.2
+});
+sr.reveal('#activities', {
+  duration: 2000,
+  origin: 'right',
+  distance: '300px',
+  viewFactor: 0.2
+});
+sr.reveal('.col-md-2', {
+  duration: 2000,
+  viewFactor: 0.2,
+  origin: 'right',
+}, 500);
+
+
+
