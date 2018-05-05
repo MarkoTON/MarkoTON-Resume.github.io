@@ -5,12 +5,12 @@ sr.reveal('.navbar', {
 });
 sr.reveal('.col-md-7', {
   duration: 2000,
-  origin: 'left',
+  origin: 'right',
   distance: '300px'
 });
 sr.reveal('.col-md-5', {
   duration: 2000,
-  origin: 'right',
+  origin: 'left',
   distance: '300px'
 });
 sr.reveal('.my-career', {
@@ -30,26 +30,26 @@ sr.reveal('#experience .col-md-6', {
 });
 sr.reveal('#skills', {
   duration: 2000,
-  origin: 'right',
+  origin: 'top',
   distance: '300px',
   viewFactor: 0.2
 });
 sr.reveal('#education', {
   duration: 2000,
-  origin: 'left',
+  origin: 'bottom',
   distance: '300px',
   viewFactor: 0.2
 });
 sr.reveal('#activities', {
   duration: 2000,
-  origin: 'right',
+  origin: 'top',
   distance: '300px',
   viewFactor: 0.2
 });
 sr.reveal('.col-md-2', {
   duration: 2000,
   viewFactor: 0.2,
-  origin: 'right',
+  origin: 'bottom',
 }, 500);
 
 
