@@ -26,29 +26,29 @@ sr.reveal('#experience .col-md-6', {
   duration: 2000,
   origin: 'bottom',
   distance: '300px',
-  viewFactor: 0.2
+  viewFactor: 0.1
 });
 sr.reveal('#skills', {
   duration: 2000,
   origin: 'top',
   distance: '300px',
-  viewFactor: 0.2
+  viewFactor: 0.1
 });
 sr.reveal('#education', {
   duration: 2000,
   origin: 'bottom',
   distance: '300px',
-  viewFactor: 0.2
+  viewFactor: 0.1
 });
 sr.reveal('#activities', {
   duration: 2000,
   origin: 'top',
   distance: '300px',
-  viewFactor: 0.2
+  viewFactor: 0.1
 });
 sr.reveal('.col-md-2', {
-  duration: 2000,
-  viewFactor: 0.2,
+  duration: 1000,
+  viewFactor: 0.1,
   origin: 'bottom',
 }, 500);
 
