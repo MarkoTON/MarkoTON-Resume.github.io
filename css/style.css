@@ -11,12 +11,16 @@ body {
 	display: inline-block;
 	padding: 4px;
 	transition: .3s;
+	background-image: linear-gradient(to left, #78C2AD 50% , transparent 50%);
+	background-size: 200% 200%;
 }
 
 .home a:hover {
 	text-decoration: none;
-	background: #78C2AD;
 	color: white;
+	background-image: linear-gradient(to left, #78C2AD 50% , transparent 50%);
+	background-position: 100% 0%;
+	transition: background-position 300ms, color 300ms ease;
 }
 
 .home img {
