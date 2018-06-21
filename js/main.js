@@ -3,6 +3,10 @@ sr.reveal('.navbar', {
   duration: 2000,
   origin: 'top'
 });
+sr.reveal('.header', {
+  duration: 2000,
+  origin: 'top'
+});
 sr.reveal('.col-md-7', {
   duration: 2000,
   origin: 'right',

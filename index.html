@@ -7,9 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Bootstrap CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/minty/bootstrap.min.css" rel="stylesheet" integrity="sha384-OSebLJ6DTybdnQ7rjdh2FeOkWs4mQkZQwBDa0IdEyyWyCONtTCUyj+VOEqMcpKAo"
-    crossorigin="anonymous">
+  crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-    crossorigin="anonymous">
+  crossorigin="anonymous">
+  <link rel="icon" href="img/my_image.jpg">
   <link rel="stylesheet" href="css/style.css">
   <title>MY RESUME</title>
 </head>
@@ -17,428 +18,485 @@
 <body>
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
     <div class="container">
+
       <a class="navbar-brand" href="#home">
         <strong>MY RESUME</strong>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">
-              <i class="fa fa-home"></i> Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">
-              <i class="fa fa-address-book"></i> About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#experience">
-              <i class="fa fa-briefcase"></i> Experiance</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">
-              <i class="fa fa-cogs"></i> Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#education">
-              <i class="fa fa-graduation-cap"></i> Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#activities">
-              <i class="fa fa-universal-access"></i> Activities</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#github-rep">
-              <i class="fa fa-github"></i> GitHub Repository</a>
-          </li>
-        </ul>
-      </div>
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">
+            <i class="fa fa-home"></i> Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">
+            <i class="fa fa-address-book"></i> About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">
+            <i class="fa fa-briefcase"></i> Experiance
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">
+            <i class="fa fa-cogs"></i> Skills
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">
+            <i class="fa fa-graduation-cap"></i> Education
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#activities">
+            <i class="fa fa-universal-access"></i> Activities
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#github-rep">
+            <i class="fa fa-github"></i> GitHub Repository
+          </a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <section id="home" class="home">
-    <div class="container pt-4">
+<section id="header">
+  <div class="header">
+    <div class="col-md-12">
       <div class="row">
-        <div class="col-md-7">
-          <h1 class="font-weight-bold">Marko Čanović</h1>
-          <p class="lead">Petra Drapšina 23a Železnik - Belgrade</p>
-          <p class="lead">069/184-95-36</p>
-          <p class="lead">
-            <a target="_blank" href="#">
-              <i class="fa fa-envelope"></i> markoTONcanovic@gmail.com</a>
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div><!--progress-container-->
+      </div><!--row-->
+    </div><!--col-md-12-->
+  </div>
+</section>
+
+
+<section id="home" class="home">
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-md-7">
+        <h1 class="font-weight-bold">Marko Čanović</h1>
+        <p class="lead">Petra Drapšina 23a Železnik - Belgrade</p>
+        <p class="lead">069/184-95-36</p>
+        <p class="lead">
+          <a target="_blank" href="#">
+            <i class="fa fa-envelope"></i> markoTONcanovic@gmail.com</a>
           </p>
           <p class="lead">
             <a target="_blank" href="https://www.linkedin.com/in/marko-%C4%8Danovi%C4%87-810491a7/">
               <i class="fa fa-linkedin"></i> LikneIn</a>
-          </p>
-          <p class="lead">
-            <a target="_blank" href="https://github.com/MarkoTON">
-              <i class="fa fa-github-square"></i> GitHub</a>
-          </p>
-        </div>
-        <!-- col-md-7 -->
-        <div class="col-md-5 text-center">
-          <img src="img/my_image.jpg" class="rounded-circle" alt="">
-        </div>
-        <!-- col-md-7 -->
-        <div class="col-md-12">
-          <p class="lead my-career mt-5">My career objective is to become Full stack developer, and also to fully understand the programming logic in general.
-          </p>
-        </div>
-      </div>
-      <!-- row -->
-    </div>
-    <!-- container -->
-  </section>
-  <!-- home -->
-
-  <section id="about">
-    <div class="container">
-      <div class="row">
-       <div class="col-md-12">
-        <h3 class="pt-2">Something about me and how I decided to become Front End Developer</h3>
-      </div>
-      <div class="col-md-12">
-        <p class="lead pt-3">
-          I'm self-taught programer who start learning programing in last 8 monts. The things on which I worked: HTML5, CSS3, Bootstrap 3 & 4, Basic SASS, Basic LASS, Basic JavaScript, Elementary Angular 4.
-
-          My knowlage of JavaScript is basic ( in general I know what is what, and to change some simpl things, also i need some help of internet and all projects that I worked on over online courses). I have finished one online course for Angular 4, I did that only to have clear picture what is Angular all about ( I have elementary knowlage of it now ).
-        </p>
-        <p class="lead pt-3">
-          Naime ja sam samouki programer koji uči programiranje već 8 meseci.
-          Stvari na kojima sam radio su: HTML5, CSS3 , Bootstrap 3 & 4, Basic SASS, Basic LASS, Basic JavaScript, Elementary Angular 4.
-
-          Moje znanje JavaScripta je osnovno. ( generalno znam šta je šta, i da promenim neke sitne stvarčice, naravno još uvek se snalazim dosta prako interneta i projekata koje sam odradio preko online kurseva). Odradio sam jedan online kurs za Angular 4, prešao sam ga isto da bih imao jasniju sliku o samom Angularu ( Imam elementarno znanje iz pomenutog ).
-        </p>
-      </div><!-- col-md-12 --> 
-    </div><!-- row --> 
-  </div><!-- container --> 
-</section>
-
-  <section id="experience">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-12">
-          <h3 class="pt-2">Experience</h3>
-          <div class="row">
-            <div class="col-md-6">
-              <p>2014 – 2016</p>
-              <p class="lead font-weight-bold">Mechanical worker | Euro 011 / Belgrade Rušanj</p>
-              <p>Processing machine parts on a turn and milling machine.</p>
+            </p>
+            <p class="lead">
+              <a target="_blank" href="https://github.com/MarkoTON">
+                <i class="fa fa-github-square"></i> GitHub</a>
+              </p>
             </div>
-
-            <div class="col-md-6">
-              <p>2003 – 2018</p>
-              <p class="lead font-weight-bold">Working at the market | Green Market / Želznik</p>
-              <p>Sales of fruits and vegetables.</p>
+            <!-- col-md-7 -->
+            <div class="col-md-5 text-center">
+              <img src="img/my_image.jpg" class="rounded-circle" alt="">
             </div>
-          </div>
-        </div>
-        <!-- col-md-12 -->
-
-      </div>
-      <!-- row -->
-    </div>
-    <!-- container -->
-  </section>
-
-  <section id="skills">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-12">
-
-          <h3 class="pt-2">All of my SKILLS:</h3>
-        </div>
-        <div class="col-md-12 clearfix">
-
-          <div class="row">
-            <div class="col-md-6 pl-xs-1 pr-xs-1">
-
-              <h4 class="pb-2 pt-1">Skills that I have worked on:</h4>
-              <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
-                <img src="img/html.png" class="card-img-info"> </h5>
-              <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
-                <img src="img/css.png" class="card-img-info"> </h5>
-              <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
-                <img src="img/bootstrap.png" class="card-img-info"> / 3</h5>
-              <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
-                <img src="img/sass.png" class="card-img-info"> / Basic</h5>
-              <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
-                <img src="img/javascript.png" class="card-img-info"> / Basic</h5>
-              <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
-                <img src="img/bootstrap.png" class="card-img-info"> / Basic 4</h5>
+            <!-- col-md-7 -->
+            <div class="col-md-12">
+              <p class="lead my-career mt-5">My career objective is to become Full stack developer, and also to fully understand the programming logic in general.
+              </p>
             </div>
-            <!-- col-md-6 -->
-
-            <div class="col-md-6 pl-xs-1 pr-xs-1">
-
-              <h4 class="pb-2 pt-1">Skills that I'm working on:</h4>
-              <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
-                <img src="img/bulma.png" class="card-img-info"> / Basic</h5>
-              <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
-                <img src="img/jquery.png" class="card-img-info"> / Basic</h5>
-              <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
-                <img src="img/angular4.png" class="card-img-info"> / Basic</h5>
-              <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
-                <img src="img/materialize.png" class="card-img-info"> / Basic</h5>
-              <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
-                <img src="img/less.png" class="card-img-info"> / Basic</h5>
-
-            </div>
-            <!-- col-md-6 -->
-          </div>
-
-        </div>
-        <!-- col-md-12 -->
-
-      </div>
-      <!-- row -->
-    </div>
-    <!-- container -->
-  </section>
-
-  <section id="education">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-12">
-          <h3 class=" pt-2">Education</h3>
-          <div class="row">
-            <div class="col-md-6">
-              <p>2006 – 2010</p>
-              <p class="lead font-weight-bold">Computer Numerical Control / Tehnicka Škola Železnik</p>
-
-              <div class="row">
-                <div class="col-md-4">
-
-                  <p class="d-inline-block">CNC Programing.</p>
-
-                </div>
-                <div class="col-md-8">
-                  <div class="row">
-                    <div class="col-md-2">
-
-                      <p class="d-inline-block">Award’s: </p>
-
-                    </div>
-                    <div class="col-md-10">
-                      <ul>
-                        <li>The first place in the 3D drawing</li>
-                        <li>Graduation work above the average high school</li>
-                      </ul>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <p>2010 – 2018</p>
-              <p class="lead font-weight-bold">Bachelor’s / Faculty of Mechanical Engineering, Belgrade</p>
-              <p>Basic academic studies..</p>
-            </div>
-          </div>
-        </div>
-        <!-- col-md-12 -->
-
-      </div>
-      <!-- row -->
-    </div>
-    <!-- container -->
-  </section>
-
-  <section id="activities" class="mb-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="pt-2">Activities</h3>
-        </div>
-        <!-- col-md-12 -->
-        <div class="col-md-12">
-          <div class="row">
-            <div class="col-md-6">
-              <p>Volunteer at Orthodox Church, Arts and Culture.</p>
-            </div>
-            <!-- col-md-6 -->
-            <div class="col-md-6">
-              <h5>Hobby / Interest :</h5>
-              <ul>
-                <li>IT Technologies</li>
-                <li>Anime movies</li>
-                <li>Manga</li>
-                <li>Reading</li>
-              </ul>
-            </div>
-            <!-- col-md-6 -->
           </div>
           <!-- row -->
         </div>
-        <!-- col-md-12 -->
-      </div>
-      <!-- row -->
-    </div>
-    <!-- container -->
-  </section>
+        <!-- container -->
+      </section>
+      <!-- home -->
 
-  <section id="github-rep">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-12">
-          <h3 class="pt-2 mb-3">Here is some of my Github Repository</h3>
-          <p class="lead ">All of this small projects are from online courses that I edit to certain point. Very soon I will put some personal
-            project.
-          </p>
-        </div>
-        <!--  col-md-12 -->
-
-        <div class="col-md-12 mb-5">
+      <section id="about">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/TEST-AgencyLandingPageUsingLESS.github.io/index.html" target="_blank">
-                <img src="img/welcome.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-            <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/MarkoTON-Mizuxe-Book.github.io/" target="_blank">
-                <img src="img/book.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-            <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/WebHostingCompanyWebsite.github.io/index.html" target="_blank">
-                <img src="img/hosting.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-            <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/input.github.io/" target="_blank">
-                <img src="img/input.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-            <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/LabSocialTheme.github.io/" target="_blank">
-                <img src="img/loop.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-            <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/MarkoMOVU.github.io/" target="_blank">
-                <img src="img/movu.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-            <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/Portfolio-Test.github.io/" target="_blank">
-                <img src="img/test-cv.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-            <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/JavaScript-Test/" target="_blank">
-                <img src="img/test.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-            <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/photo-gallery-online-test.github.io/" target="_blank">
-                <img src="img/gallery.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-            <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/PhotoAppSalesWebsite.github.io/" target="_blank">
-                <img src="img/life.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-            <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/GuessNumber.github.io/" target="_blank">
-                <img src="img/guess.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-             <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/GH-search-app.github.io/" target="_blank">
-                <img src="img/GH-app.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-             <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/weatherapp.github.io/" target="_blank">
-                <img src="img/weather.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-            <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/loan-calculator.github.io/" target="_blank">
-                <img src="img/cal.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-            <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/taskapp.github.io/" target="_blank">
-                <img src="img/task.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
-            <div class="col-sm-2 col-md-2">
-              <a href="https://markoton.github.io/DecorStone.github.io/" target="_blank">
-                <img src="img/decor.png" alt="" class="rounded-square">
-              </a>
-            </div>
-            <!--  col-md-2 -->
+           <div class="col-md-12">
+            <h3 class="pt-2">Something about me and how I decided to become Front End Developer</h3>
           </div>
-          <!--  row -->
+          <div class="col-md-12">
+            <p class="lead pt-3">
+              I'm self-taught programer who start learning programing in last 8 monts. The things on which I worked: HTML5, CSS3, Bootstrap 3 & 4, Basic SASS, Basic LASS, Basic JavaScript, Elementary Angular 4.
+
+              My knowlage of JavaScript is basic ( in general I know what is what, and to change some simpl things, also i need some help of internet and all projects that I worked on over online courses). I have finished one online course for Angular 4, I did that only to have clear picture what is Angular all about ( I have elementary knowlage of it now ).
+            </p>
+            <p class="lead pt-3">
+              Naime ja sam samouki programer koji uči programiranje već 8 meseci.
+              Stvari na kojima sam radio su: HTML5, CSS3 , Bootstrap 3 & 4, Basic SASS, Basic LASS, Basic JavaScript, Elementary Angular 4.
+
+              Moje znanje JavaScripta je osnovno. ( generalno znam šta je šta, i da promenim neke sitne stvarčice, naravno još uvek se snalazim dosta prako interneta i projekata koje sam odradio preko online kurseva). Odradio sam jedan online kurs za Angular 4, prešao sam ga isto da bih imao jasniju sliku o samom Angularu ( Imam elementarno znanje iz pomenutog ).
+            </p>
+          </div><!-- col-md-12 --> 
+        </div><!-- row --> 
+      </div><!-- container --> 
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-12">
+            <h3 class="pt-2">Experience</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <p>2014 – 2016</p>
+                <p class="lead font-weight-bold">Mechanical worker | Euro 011 / Belgrade Rušanj</p>
+                <p>Processing machine parts on a turn and milling machine.</p>
+              </div>
+
+              <div class="col-md-6">
+                <p>2003 – 2018</p>
+                <p class="lead font-weight-bold">Working at the market | Green Market / Želznik</p>
+                <p>Sales of fruits and vegetables.</p>
+              </div>
+            </div>
+          </div>
+          <!-- col-md-12 -->
+
         </div>
-        <!-- col-md-12 -->
-
-        <a href="#home" class="rounded-circle text-white d-block btn btn-primary mx-auto p-3 mb-5">
-	       <i class="fa fa-angle-double-up fa-3x d-block px-2"></i>
-	    </a>
-
-      
-        <!--  col-md-12 -->
-
+        <!-- row -->
       </div>
-      <!-- row -->
-    </div>
-    <!-- container -->
-  </section>
+      <!-- container -->
+    </section>
 
-  <footer class="text-white pt-5 pb-4">
-    <p class="text-center">© 2018 MARKO ČANOVIĆ. ALL RIGHTS RESERVED.</p>
-  </footer>
+    <section id="skills">
+      <div class="container">
+        <div class="row">
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/scrollreveal.min.js"></script>
-  <script src="js/main.js"></script>
-  <script>
-    $(function () {
-      // Smooth Scrolling
-      $('a[href*="#"]:not([href="#"])').click(function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-          if (target.length) {
-            $('html, body').animate({
-              scrollTop: target.offset().top
-            }, 1000);
-            return false;
+          <div class="col-md-12">
+
+            <h3 class="pt-2">All of my SKILLS:</h3>
+          </div>
+          <div class="col-md-12 clearfix">
+
+            <div class="row">
+              <div class="col-md-6 pl-xs-1 pr-xs-1">
+
+                <h4 class="pb-2 pt-1">Skills that I have worked on:
+                </h4>
+                <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
+                  <img src="img/html.png" class="card-img-info"> 
+                </h5>
+                <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
+                  <img src="img/css.png" class="card-img-info"> 
+                </h5>
+                <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
+                  <img src="img/bootstrap.png" class="card-img-info"> / 3
+                </h5>
+                <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
+                  <img src="img/sass.png" class="card-img-info"> / Basic
+                </h5>
+                <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
+                  <img src="img/javascript.png" class="card-img-info"> / Basic
+                </h5>
+                <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
+                  <img src="img/bootstrap.png" class="card-img-info"> / Basic 4
+                </h5>
+              </div><!-- col-md-6 -->
+
+              <div class="col-md-6 pl-xs-1 pr-xs-1">
+
+                <h4 class="pb-2 pt-1">Skills that I'm working on:
+                </h4>
+                <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
+                  <img src="img/bulma.png" class="card-img-info"> / Basic
+                </h5>
+                <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
+                  <img src="img/jquery.png" class="card-img-info"> / Basic
+                </h5>
+                <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
+                  <img src="img/angular4.png" class="card-img-info"> / Basic
+                </h5>
+                <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
+                  <img src="img/materialize.png" class="card-img-info"> / Basic
+                </h5>
+                <h5 class="pt-1 pb-1 d-inline-block width-50 font-weight-bold">
+                  <img src="img/less.png" class="card-img-info"> / Basic
+                </h5>
+
+              </div><!-- col-md-6 -->
+            </div>
+
+          </div><!-- col-md-12 -->
+
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-12">
+            <h3 class=" pt-2">Education</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <p>2006 – 2010</p>
+                <p class="lead font-weight-bold">Computer Numerical Control / Tehnicka Škola Železnik</p>
+
+                <div class="row">
+                  <div class="col-md-4">
+
+                    <p class="d-inline-block">CNC Programing.</p>
+
+                  </div>
+                  <div class="col-md-8">
+                    <div class="row">
+                      <div class="col-md-2">
+
+                        <p class="d-inline-block">Award’s: </p>
+
+                      </div>
+                      <div class="col-md-10">
+                        <ul>
+                          <li>The first place in the 3D drawing</li>
+                          <li>Graduation work above the average high school</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <p>2010 – 2018</p>
+                <p class="lead font-weight-bold">Bachelor’s / Faculty of Mechanical Engineering, Belgrade</p>
+                <p>Basic academic studies..</p>
+              </div>
+            </div>
+          </div>
+          <!-- col-md-12 -->
+
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <section id="activities" class="mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="pt-2">Activities</h3>
+          </div>
+          <!-- col-md-12 -->
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-6">
+                <p>Volunteer at Orthodox Church, Arts and Culture.</p>
+              </div>
+              <!-- col-md-6 -->
+              <div class="col-md-6">
+                <h5>Hobby / Interest :</h5>
+                <ul>
+                  <li>IT Technologies</li>
+                  <li>Anime movies</li>
+                  <li>Manga</li>
+                  <li>Reading</li>
+                </ul>
+              </div>
+              <!-- col-md-6 -->
+            </div>
+            <!-- row -->
+          </div>
+          <!-- col-md-12 -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <section id="github-rep">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-12">
+            <h3 class="pt-2 mb-3">Here is some of my Github Repository</h3>
+            <p class="lead ">All of this small projects are from online courses that I edit to certain point. Very soon I will put some personal
+              project.
+            </p>
+          </div>
+          <!--  col-md-12 -->
+
+          <div class="col-md-12 mb-5">
+            <div class="row">
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/TEST-AgencyLandingPageUsingLESS.github.io/index.html" target="_blank">
+                  <img src="img/welcome.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/MarkoTON-Mizuxe-Book.github.io/" target="_blank">
+                  <img src="img/book.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/WebHostingCompanyWebsite.github.io/index.html" target="_blank">
+                  <img src="img/hosting.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/input.github.io/" target="_blank">
+                  <img src="img/input.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/LabSocialTheme.github.io/" target="_blank">
+                  <img src="img/loop.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/MarkoMOVU.github.io/" target="_blank">
+                  <img src="img/movu.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/Portfolio-Test.github.io/" target="_blank">
+                  <img src="img/test-cv.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/JavaScript-Test/" target="_blank">
+                  <img src="img/test.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/photo-gallery-online-test.github.io/" target="_blank">
+                  <img src="img/gallery.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/PhotoAppSalesWebsite.github.io/" target="_blank">
+                  <img src="img/life.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/GuessNumber.github.io/" target="_blank">
+                  <img src="img/guess.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/GH-search-app.github.io/" target="_blank">
+                  <img src="img/GH-app.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/weatherapp.github.io/" target="_blank">
+                  <img src="img/weather.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/loan-calculator.github.io/" target="_blank">
+                  <img src="img/cal.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/taskapp.github.io/" target="_blank">
+                  <img src="img/task.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+              <div class="col-sm-2 col-md-2">
+                <a href="https://markoton.github.io/DecorStone.github.io/" target="_blank">
+                  <img src="img/decor.png" alt="" class="rounded-square">
+                </a>
+              </div>
+              <!--  col-md-2 -->
+            </div>
+            <!--  row -->
+          </div>
+          <!-- col-md-12 -->
+
+          <a href="#home" class="rounded-circle text-white d-block btn btn-primary ml-auto p-3 mb-5">
+            <i id="div1" class="fa fa-3x d-block px-2"></i>
+          </a>
+          <!--  col-md-12 -->
+
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <footer class="text-white pt-5 pb-4">
+      <p class="text-center">© 2018 MARKO ČANOVIĆ. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      $(function () {
+        // Smooth Scrolling
+        $('a[href*="#"]:not([href="#"])').click(function () {
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
           }
-        }
+        });
       });
-    });
+    </script>
+
+    <script>
+      function chargebattery() {
+        var a;
+        a = document.getElementById("div1");
+        a.innerHTML = "&#xf102;";
+        setTimeout(function () {
+          a.innerHTML = "&#xf106;";
+        }, 500);
+        setTimeout(function () {
+          a.innerHTML = "&#xf102;";
+        }, 1000);
+      }
+      chargebattery();
+      setInterval(chargebattery, 1500);
+    </script>
+
+    <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
   </script>
 </body>
 </html>
