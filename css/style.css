@@ -86,6 +86,10 @@ body {
 		display: inline-block;
 }
 
+#skills hr {
+	border-top: 2px solid rgba(120, 194, 173, 0.4);
+}
+
 .width-50 {
 	width: 48% !important;
 }
