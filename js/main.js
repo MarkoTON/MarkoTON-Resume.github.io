@@ -56,5 +56,45 @@ sr.reveal('.col-md-2', {
   origin: 'bottom',
 }, 500);
 
+$(function () {
+  // Smooth Scrolling
+  $('a[href*="#"]:not([href="#"])').click(function () {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
 
+function chargebattery() {
+  var a;
+  a = document.getElementById("div1");
+  a.innerHTML = "&#xf102;";
+  setTimeout(function () {
+    a.innerHTML = "&#xf106;";
+  }, 500);
+  setTimeout(function () {
+    a.innerHTML = "&#xf102;";
+  }, 1000);
+}
+chargebattery();
+setInterval(chargebattery, 1500);
+
+
+
+   // When the user scrolls the page, execute myFunction 
+   window.onscroll = function() {myFunction()};
+    
+   function myFunction() {
+     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+     var scrolled = (winScroll / height) * 100;
+     document.getElementById("myBar").style.width = scrolled + "%";
+   }
 
