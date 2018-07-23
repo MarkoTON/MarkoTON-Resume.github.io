@@ -10,26 +10,26 @@ body {
 }
 
 .header {
-    position: fixed;
-    top: 0px;
-    width: 100%;
+	position: fixed;
+	top: 0px;
+	width: 100%;
 	/* margin-top: 56px; */
 	top: 56px;
-    z-index: 10;
-    background-color: #f1f1f1;
-  }
+	z-index: 10;
+	background-color: #f1f1f1;
+}
 
-  .progress-container {
-    width: 100%;
-    height: 8px;
-    background: #cbede3;
-  }
+.progress-container {
+	width: 100%;
+	height: 8px;
+	background: #cbede3;
+}
 
-  .progress-bar {
-    height: 8px;
-    background: #75ddc0;
-    width: 0%;
-  }
+.progress-bar {
+	height: 8px;
+	background: #75ddc0;
+	width: 0%;
+}
 
 
 /* === HOME === */
@@ -53,8 +53,13 @@ body {
 	transition: background-position 300ms, color 300ms ease;
 }
 
-.home img {
+.home i img {
 	width: 65%;
+	box-shadow: 0px 0px 15px #343a40;
+}
+
+.home > .shadow img {
+	box-shadow: 1px 1px 1px black;
 }
 
 .my-career {
@@ -82,8 +87,8 @@ body {
 }
 
 #skills h3 {
-		border-bottom: 5px solid #78C2AD;
-		display: inline-block;
+	border-bottom: 5px solid #78C2AD;
+	display: inline-block;
 }
 
 #skills hr {
@@ -103,8 +108,8 @@ body {
 }
 
 #experience h3 {
-		border-bottom: 5px solid #78C2AD;
-		display: inline-block;
+	border-bottom: 5px solid #78C2AD;
+	display: inline-block;
 }
 /* === EDUCATION === */
 
@@ -113,8 +118,8 @@ body {
 }
 
 #education h3 {
-		border-bottom: 5px solid #78C2AD;
-		display: inline-block;
+	border-bottom: 5px solid #78C2AD;
+	display: inline-block;
 }
 /* === ACTIVITIES === */
 
@@ -123,14 +128,14 @@ body {
 }
 
 #activities h3 {
-		border-bottom: 5px solid #78C2AD;
-		display: inline-block;
+	border-bottom: 5px solid #78C2AD;
+	display: inline-block;
 }
 
 /* == GITHUB-REP === */
 
 #github-rep {
-		padding-top: 58px;
+	padding-top: 58px;
 }
 
 #github-rep h3 {
@@ -140,8 +145,8 @@ body {
 
 #github-rep img {
 	width: 100%;
-    margin: 10px 0;
-    box-shadow: 0px 0px 15px #343a40;
+	margin: 10px 0;
+	box-shadow: 0px 0px 15px #343a40;
 }
 
 #github-rep a {
