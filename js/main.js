@@ -60,40 +60,46 @@ $(function () {
   // Smooth Scrolling
   $('a[href*="#"]:not([href="#"])').click(function () {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
     }
-  });
+  }
+});
 });
 
-function chargebattery() {
-  var a;
-  a = document.getElementById("div1");
-  a.innerHTML = "&#xf102;";
+function arrUp() {
+  let arrUpGo;
+  arrUpGo = document.getElementById("div1");
+  arrUpGo.innerHTML = "&#xf102;";
   setTimeout(function () {
-    a.innerHTML = "&#xf106;";
+    arrUpGo.innerHTML = "&#xf106;";
   }, 500);
   setTimeout(function () {
-    a.innerHTML = "&#xf102;";
+    arrUpGo.innerHTML = "&#xf102;";
   }, 1000);
 }
-chargebattery();
-setInterval(chargebattery, 1500);
+arrUp();
+setInterval(arrUp, 1500);
 
 
+// function addIcon(){
+//   let icon;
+//   icon = document.getElementById("chess-icon");
+//   icon.innerHTML = "&#xf448;";
+// }
+// addIcon();
 
-   // When the user scrolls the page, execute myFunction 
-   window.onscroll = function() {myFunction()};
-    
-   function myFunction() {
-     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-     var scrolled = (winScroll / height) * 100;
-     document.getElementById("myBar").style.width = scrolled + "%";
-   }
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
