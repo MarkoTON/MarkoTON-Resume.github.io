@@ -2,6 +2,16 @@ body {
 	box-sizing: border-box;
 }
 
+/*==== Navbar ====*/
+
+.navbar-dark .navbar-nav .nav-link {
+	transition: all 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: rgba(255, 255, 255, 0.99);
+}
+
 /*Header*/
 #header {
 	/* padding-top: 56px; */
@@ -37,7 +47,7 @@ body {
 	padding-top: 58px;
 }
 
-.home a {
+.home a, #education a{
 	display: inline-block;
 	padding: 4px;
 	transition: .3s;
@@ -45,7 +55,7 @@ body {
 	background-size: 200% 200%;
 }
 
-.home a:hover {
+.home a:hover, #education a:hover {
 	text-decoration: none;
 	color: white;
 	background-image: linear-gradient(to left, #78C2AD 50% , transparent 50%);
@@ -155,6 +165,22 @@ body {
 
 #github-rep a:hover {
 	opacity: .5;
+}
+
+#github-rep img{
+	display: inline-block;
+	padding: 4px;
+	transition: .3s;
+	background-image: linear-gradient(to left, #78C2AD 50% , transparent 50%);
+	background-size: 200% 200%;
+}
+
+#github-rep img:hover {
+	text-decoration: none;
+	color: white;
+	background-image: linear-gradient(to left, #78C2AD 50% , transparent 50%);
+	background-position: 100% 0%;
+	transition: background-position 300ms, color 300ms ease;
 }
 
 .rounded-square {
