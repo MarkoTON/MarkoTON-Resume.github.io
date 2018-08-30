@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Marko Čanović",
+    "address": "Petra Drapšina 23a Železnik - Belgrade",
+    "phone": "069/184-95-36",
+    "socialNetworks": {
+      "linkedin":"https://www.linkedin.com/in/marko-%C4%8Danovi%C4%87-810491a7/",
+      "github": "https://github.com/MarkoTON",
+      "facebook": "https://www.facebook.com/marko.canovic.3",
+      "email": "markoTONcanovic@gmail.com",
+      "tweeter": "https://twitter.com/Sabaku_No_Garra"
+    },
+    "skills": {
+      "html": "html",
+      "css": "css",
+      "bootstrap": "bootstrap / 3 & 4",
+      "javascript": "javascript",
+      "githubDasktop": "githubDasktop",
+      "git": "git / Basic",
+      "jQuery": "jQuery / Basic",
+      "wordpress": "wordpress / Introduction",
+      "ajax": "ajax / Introduction",
+      "json": "json / Basic"
+    },
+    "skillsWorkingOn": {
+      "javascript-intermediate": "javascript / Intermediate",
+      "jQuery-basic": "jQuery / Basic",
+      "ajax-basic": "ajax / Basic",
+      "css-advanced": "css / Advanced",
+      "materialize-basic": "Materialize / Basic",
+      "less-basic": "less / Basic"
+    },
+    "toolsFamiliar": {
+      "lightbox-basic": "lightbox / Basic",      
+      "fancybox-basic": "fancybox / Basic",      
+      "animate-css-basic": "animate.css / Basic",      
+      "scroll-reveal-basic": "scroll-reveal / Basic"
+    },
+    "hobby-interest": ["IT Technologies", "Anime movies", "Manga", "Reading", "Gym workout"],
+    "githubRepository": [
+      "https://markoton.github.io/TEST-AgencyLandingPageUsingLESS.github.io/index.html",
+      "https://markoton.github.io/MarkoTON-Mizuxe-Book.github.io/",
+      "https://markoton.github.io/WebHostingCompanyWebsite.github.io/index.html",
+      "https://markoton.github.io/input.github.io/",
+      "https://markoton.github.io/LabSocialTheme.github.io/",
+      "https://markoton.github.io/MarkoMOVU.github.io/",
+      "https://markoton.github.io/Portfolio-Test.github.io/",
+      "https://markoton.github.io/JavaScript-Test/",
+      "https://markoton.github.io/photo-gallery-online-test.github.io/",
+      "https://markoton.github.io/PhotoAppSalesWebsite.github.io/",
+      "https://markoton.github.io/GuessNumber.github.io/",
+      "https://markoton.github.io/GH-search-app.github.io/",
+      "https://markoton.github.io/weatherapp.github.io/",
+      "https://markoton.github.io/loan-calculator.github.io/",
+      "https://markoton.github.io/taskapp.github.io/",
+      "https://markoton.github.io/DecorStone.github.io/",
+      "https://markoton.github.io/ProjekatIzITBootcampa.github.io/",
+      "https://github.com/MarkoTON/JavaScript-EXERCISE.github.io",
+      "https://markoton.github.io/LoopingThroughJSON.github.io/"
+    ]
+  }
+]
