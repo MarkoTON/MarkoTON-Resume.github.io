@@ -2,6 +2,10 @@ body {
 	box-sizing: border-box;
 }
 
+hr {
+	border-top: 2px solid rgba(120, 194, 173, 0.4);
+}
+
 /*==== Navbar ====*/
 
 .navbar-dark .navbar-nav .nav-link {
@@ -99,10 +103,6 @@ body {
 #skills h3 {
 	border-bottom: 5px solid #78C2AD;
 	display: inline-block;
-}
-
-#skills hr {
-	border-top: 2px solid rgba(120, 194, 173, 0.4);
 }
 
 .width-50 {

@@ -1,0 +1,7 @@
+Namely, I am a self-taught programmer who has been learning programming for quite some time. My learning and sources from where I studied were through online courses and tutorials as well as <b>IT Bootcamp</b>, which I attended for two months ( from June to August 2018 ), in with the main focus has been <b>JavaScript.</b>
+Things I've worked on myself as well as on Bootcamp are: <b>HTML5, CSS3, Bootstrap 3 & 4, Basic SASS, Basic LASS, Intermediate JavaScript, Basic JSON, and Basic AJAX.</b>
+
+<hr>
+
+Naime ja sam samouki programer koji uči programiranje već neko vreme.  Moje učenje i izvori odakle sam učio bili su preko online kurseva i tutorijala kao i <b>IT Bootcamp-a</b> koji sam pohađao dva meseca ( od Juna do Avgusta 2018g. ) na kojem je glavni fokus bio <b>JavaScript</b>. <br>
+Stvari na kojima sam radio samostalno kao i na Bootcamp-u su:<b> HTML5, CSS3, Bootstrap 3 & 4, Basic SASS, Basic LASS, Intermediate JavaScript, Basic JSON kao i Basic AJAX.</b>
