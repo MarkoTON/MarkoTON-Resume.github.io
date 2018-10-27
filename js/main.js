@@ -142,9 +142,9 @@ function onClickPrint(){
         let objGitHub = githubRepository[i];
         outputInfoGithubRepository += `
         <div class="col-sm-2 col-md-2">
-           <a href="${objGitHub.link}" target="_blank">
-              <img src="${objGitHub.imageLink}" alt="" class="rounded-square">
-           </a>
+        <a href="${objGitHub.link}" target="_blank">
+        <img src="${objGitHub.imageLink}" alt="" class="rounded-square">
+        </a>
         </div><!--  col-md-2 -->
         `;
       }
