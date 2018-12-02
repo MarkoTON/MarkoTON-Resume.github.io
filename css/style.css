@@ -166,7 +166,7 @@ hr {
 	padding-top: 58px;
 }
 
-.home a, #education a, #experience a {
+.home a, #education a {
 	display: inline-block;
 	padding: 4px;
 	transition: .3s;
@@ -174,7 +174,7 @@ hr {
 	background-size: 200% 200%;
 }
 
-.home a:hover, #education a:hover, #experience a:hover {
+.home a:hover, #education a:hover {
 	text-decoration: none;
 	color: white;
 	background-image: linear-gradient(to left, #78C2AD 50% , transparent 50%);
