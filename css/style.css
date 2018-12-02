@@ -16,6 +16,16 @@ hr {
 	color: rgba(255, 255, 255, 0.99);
 }
 
+/* .clearHeader {
+	padding: 1rem 0;
+  transition: all 0.4s;
+}
+.darkHeader {
+ background: #75ddc0;
+ color:#fff;
+ transition: all 0.4s;
+} */
+
 /*==== Menu Button ====*/
 
 .container-menu {
@@ -156,7 +166,7 @@ hr {
 	padding-top: 58px;
 }
 
-.home a, #education a{
+.home a, #education a, #experience a {
 	display: inline-block;
 	padding: 4px;
 	transition: .3s;
@@ -164,7 +174,7 @@ hr {
 	background-size: 200% 200%;
 }
 
-.home a:hover, #education a:hover {
+.home a:hover, #education a:hover, #experience a:hover {
 	text-decoration: none;
 	color: white;
 	background-image: linear-gradient(to left, #78C2AD 50% , transparent 50%);
@@ -226,6 +236,7 @@ hr {
 	border-bottom: 5px solid #78C2AD;
 	display: inline-block;
 }
+
 /* === EDUCATION === */
 
 #education {
