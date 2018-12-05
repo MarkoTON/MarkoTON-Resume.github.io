@@ -28,6 +28,11 @@
         "name":"Twitter",
         "address": "https://twitter.com/Sabaku_No_Garra",
         "icon": "fa fa-twitter"
+      },
+      {
+        "name":"Chess",
+        "address": "https://www.chess.com/member/marko_ton",
+        "icon": "fa fa-chess-board"
       }
     ],
     "skills": {
