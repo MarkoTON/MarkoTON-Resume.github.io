@@ -1,3 +1,4 @@
+//// Smooth Scrolling ////
 $(function () {
   // Smooth Scrolling
   $('a[href*="#"]:not([href="#"])').click(function () {
@@ -14,6 +15,17 @@ $(function () {
 });
 });
 
+
+//// Povratak na TOP ////
+window.onscroll = function() {myFunction()};
+function myFunction() {
+  let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  let scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+//// Animacija Strelice ////
 function arrUp() {
   let arrUpGo;
   arrUpGo = document.getElementById("div1");
@@ -28,16 +40,7 @@ function arrUp() {
 arrUp();
 setInterval(arrUp, 1500);
 
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  let scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
-
-// Stampanje podataka //
+//// Stampanje podataka ////
 function onClickPrint(){
   // Hvatanje JSON-a i konvertovanje
   let xhttp = new XMLHttpRequest();
@@ -101,11 +104,9 @@ function onClickPrint(){
   xhttp.open("GET", "json/info.json", true);
   xhttp.send();
 }
-
 onClickPrint();
 
-// Stampanje Teksta //
-
+//// Stampanje Teksta //
 function printText(){
   // Hvatanje JSON-a i konvertovanje
   let xhttp = new XMLHttpRequest();
@@ -123,7 +124,7 @@ function printText(){
 
 printText();
 
-// Close the dropdown if the user clicks outside of it
+//// Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
     
@@ -138,7 +139,7 @@ window.onclick = function(event) {
   }
 }
 
-// Menu Button X
+//// Menu Button X
 function myMenuBtn(x) {
   x.classList.toggle("change");
 }
@@ -147,25 +148,30 @@ function myMenuOverlay(overlayToogle){
   overlayToogle.classList.toggle("overlay-toggle");
 }
 
-// Nav Open
+//// Nav Open
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }
-// Nav Close
+//// Nav Close
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
 
+
+//// Toglovanje klasa da se dobije prozirni NAVBAR
 $(function() {
   //caches a jQuery object containing the header element
-  var header = $(".clearHeader");
+  let getHeader = $(".clearHeader");
+  let getProgress = $(".progressHeader");
   $(window).scroll(function() {
-      var scroll = $(window).scrollTop();
-
-      if (scroll >= 500) {
-          header.removeClass('clearHeader').addClass("darkHeader");
-      } else {
-          header.removeClass("darkHeader").addClass('clearHeader');
-      }
+    let scroll = $(window).scrollTop();
+    
+    if (scroll >= 100) {
+      getHeader.removeClass('clearHeader').addClass("darkHeader");
+      getProgress.removeClass('progressHeader').addClass("progress-container");
+    } else {
+      getHeader.removeClass("darkHeader").addClass('clearHeader');
+      getProgress.removeClass("progress-container").addClass('progressHeader');         
+    }
   });
 });

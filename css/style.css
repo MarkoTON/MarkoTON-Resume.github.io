@@ -16,15 +16,18 @@ hr {
 	color: rgba(255, 255, 255, 0.99);
 }
 
-/* .clearHeader {
+.clearHeader {
+	background: rgba(120, 194, 173, 0.65) !important;
 	padding: 1rem 0;
   transition: all 0.4s;
 }
+
 .darkHeader {
- background: #75ddc0;
+ background: rgba(120, 194, 173, 0.95) !important;
  color:#fff;
  transition: all 0.4s;
-} */
+}
+
 
 /*==== Menu Button ====*/
 
@@ -138,11 +141,14 @@ hr {
 	z-index: 100;
 }
 
+#header .col-md-12 {
+	min-height: 0;
+}
+
 .header {
 	position: fixed;
 	top: 0px;
 	width: 100%;
-	/* margin-top: 56px; */
 	top: 56px;
 	z-index: 10;
 	background-color: #f1f1f1;
@@ -152,6 +158,16 @@ hr {
 	width: 100%;
 	height: 8px;
 	background: #cbede3;
+	transition: all 0.4s;
+}
+
+.progressHeader {
+	width: 100%;
+	height: 8px;
+	background: #cbede3;
+	position: absolute;
+	margin-top: 1rem;
+	transition: all 0.3s;
 }
 
 .progress-bar {

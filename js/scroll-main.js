@@ -1,8 +1,8 @@
 window.sr = ScrollReveal();
-sr.reveal('.navbar', {
-  duration: 1500,
-  origin: 'top'
-});
+// sr.reveal('.navbar', {
+//   duration: 1500,
+//   origin: 'top'
+// });
 sr.reveal('.header', {
   duration: 1500,
   origin: 'top'
