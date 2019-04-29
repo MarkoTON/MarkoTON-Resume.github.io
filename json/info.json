@@ -7,17 +7,17 @@
       {
         "name":"LinkedIn",
         "address":"https://www.linkedin.com/in/marko-%C4%8Danovi%C4%87-810491a7/",
-        "icon": "fa fa-linkedin"
+        "icon": "fab fa-linkedin"
       },
       {
         "name":"GitHub",
         "address": "https://github.com/MarkoTON",
-        "icon": "fa fa-github-square"
+        "icon": "fab fa-github-square"
       },
       {
         "name":"Facebook",
         "address": "https://www.facebook.com/marko.canovic.3",
-        "icon": "fa fa-facebook"
+        "icon": "fab fa-facebook"
       },
       {
         "name":"markoTONcanovic@gmail.com",
@@ -27,12 +27,12 @@
       {
         "name":"Twitter",
         "address": "https://twitter.com/Sabaku_No_Garra",
-        "icon": "fa fa-twitter"
+        "icon": "fab fa-twitter"
       },
       {
         "name":"Chess",
         "address": "https://www.chess.com/member/marko_ton",
-        "icon": "fa fa-chess-board"
+        "icon": "fa fa-chess-pawn"
       }
     ],
     "skills": {

@@ -71,7 +71,7 @@ function onClickPrint(){
         `;
       }
       
-      for (let i = 3; i <= 4; i++) {
+      for (let i = 3; i <= 5; i++) {
         let obj2 = socialNetworks[i];
         outputInfoSocNetw2 += `
         <p class="lead">
@@ -125,19 +125,19 @@ function printText(){
 printText();
 
 //// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+// window.onclick = function(event) {
+//   if (!event.target.matches('.dropbtn')) {
     
-    let dropdowns = document.getElementsByClassName("dropdown-content");
-    let i;
-    for (i = 0; i < dropdowns.length; i++) {
-      let openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+//     let dropdowns = document.getElementsByClassName("dropdown-content");
+//     let i;
+//     for (i = 0; i < dropdowns.length; i++) {
+//       let openDropdown = dropdowns[i];
+//       if (openDropdown.classList.contains('show')) {
+//         openDropdown.classList.remove('show');
+//       }
+//     }
+//   }
+// }
 
 //// Menu Button X
 function myMenuBtn(x) {
@@ -148,14 +148,14 @@ function myMenuOverlay(overlayToogle){
   overlayToogle.classList.toggle("overlay-toggle");
 }
 
-//// Nav Open
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-//// Nav Close
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
+// //// Nav Open
+// function openNav() {
+//   document.getElementById("myNav").style.width = "100%";
+// }
+// //// Nav Close
+// function closeNav() {
+//   document.getElementById("myNav").style.width = "0%";
+// }
 
 
 //// Toglovanje klasa da se dobije prozirni NAVBAR

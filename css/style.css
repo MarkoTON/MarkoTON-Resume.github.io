@@ -19,13 +19,14 @@ hr {
 
 .clearHeader {
 	background: rgba(120, 194, 173, 0.65) !important;
-	padding: 1rem 0;
+	padding: 1rem 2.5%;
   transition: all 0.4s;
 }
 
 .darkHeader {
  background: rgba(120, 194, 173, 0.95) !important;
  color:#fff;
+ /* padding: 0.4rem 0; */
  transition: all 0.4s;
 }
 
